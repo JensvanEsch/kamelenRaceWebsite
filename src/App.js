@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Unity, useUnityContext } from "react-unity-webgl";
 import "./style.css";
 
@@ -9,6 +9,10 @@ function App() {
     frameworkUrl: "Build/build.framework.js.unityweb",
     codeUrl: "Build/build.wasm.unityweb",
   });
+
+  useEffect(() => {
+    document.title = "KamelenRace";
+  }, []);
 
   return (
     <div className="bg-slate-600 h-screen w-screen sm:h-screen sm:w-screen sm:pt-8">
