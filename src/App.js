@@ -11,13 +11,14 @@ function App() {
   });
 
   return (
-    <div>
-      <div className="w-[351px] h-[624px] mx-auto mt-[40px]">
-        <Unity unityProvider={unityProvider} className="w-full h-full" />
+    <div className="bg-slate-600 h-screen w-screen pt-8">
+      <div className="w-[351px] h-[624px] mx-auto rounded-lg">
+        <Unity unityProvider={unityProvider} className="w-full h-full rounded-t-lg" />
       </div>
+      
       {/* Advertentieblock onder */}
-      <div className="relative w-[351px] h-10 mx-auto bg-black b-0">
-        <p className="text-white">advertentiehier</p>
+      <div className="flex w-[351px] h-12 rounded-b-lg mx-auto bg-black b-0">
+        <h1 className="text-white mx-auto my-auto">advertentiehier</h1>
       </div>
     </div>
   );
