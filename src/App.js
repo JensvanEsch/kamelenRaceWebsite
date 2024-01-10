@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import { Unity, useUnityContext } from "react-unity-webgl";
 import "./style.css";
 
@@ -16,6 +17,13 @@ function App() {
 
   return (
     <div className="bg-slate-600 h-screen w-screen sm:h-screen sm:w-screen sm:pt-8">
+      <Helmet>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7401228549557769"
+          crossorigin="anonymous"
+        ></script>
+      </Helmet>
       <div className="pb-12 w-screen h-screen sm:w-[351px] sm:h-[624px] sm:mx-auto rounded-lg">
         <Unity
           unityProvider={unityProvider}
