@@ -18,6 +18,7 @@ function App() {
   return (
     <div>
       <Helmet>
+        <meta name="google-adsense-account" content="ca-pub-7401228549557769"></meta>
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7401228549557769"
