@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
 import { Unity, useUnityContext } from "react-unity-webgl";
 import "./style.css";
 
@@ -16,7 +16,7 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-slate-600 h-screen w-screen sm:h-screen sm:w-screen sm:pt-8">
+    <div>
       <Helmet>
         <script
           async
@@ -24,6 +24,7 @@ function App() {
           crossorigin="anonymous"
         ></script>
       </Helmet>
+    <div className="bg-slate-600 h-screen w-screen sm:h-screen sm:w-screen sm:pt-8">
       <div className="pb-12 w-screen h-screen sm:w-[351px] sm:h-[624px] sm:mx-auto rounded-lg">
         <Unity
           unityProvider={unityProvider}
@@ -35,6 +36,7 @@ function App() {
       <div className="flex -mt-12 h-12 min-w-[351px] sm:w-[351px] mx-auto bg-black b-0">
         <h1 className="text-white mx-auto my-auto">advertentiehier</h1>
       </div>
+    </div>
     </div>
   );
 }
