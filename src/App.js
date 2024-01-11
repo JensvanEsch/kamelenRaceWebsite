@@ -26,17 +26,18 @@ function App() {
         ></script>
       </Helmet>
     <div className="bg-slate-600 h-screen w-screen sm:h-screen sm:w-screen sm:pt-8">
-      <div className="pb-12 w-screen h-screen sm:w-[351px] sm:h-[624px] sm:mx-auto rounded-lg">
+      <div className="pb-0 w-screen h-screen sm:w-[351px] sm:h-[624px] sm:mx-auto rounded-lg"> 
+      {/* Padding bottom was 12 met advertentieblok */}
         <Unity
           unityProvider={unityProvider}
-          className="w-full h-full rounded-t-lg"
+          className="w-full h-full rounded-lg"
         />
       </div>
 
-      {/* Advertentieblock onder */}
+      {/* Advertentieblock onder
       <div className="flex -mt-12 h-12 min-w-[351px] sm:w-[351px] mx-auto bg-black b-0">
         <h1 className="text-white mx-auto my-auto">advertentiehier</h1>
-      </div>
+      </div> */}
     </div>
     </div>
   );
