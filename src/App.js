@@ -24,6 +24,14 @@ function App() {
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7401228549557769"
           crossorigin="anonymous"
         ></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P7MYNS4PKT"></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-P7MYNS4PKT');`}
+        </script>
       </Helmet>
     <div className="bg-slate-600 h-screen w-screen sm:h-screen sm:w-screen sm:pt-8">
       <div className="pb-0 w-screen h-screen sm:w-[351px] sm:h-[624px] sm:mx-auto rounded-lg"> 
