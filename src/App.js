@@ -33,8 +33,8 @@ function App() {
           gtag('config', 'G-P7MYNS4PKT');`}
         </script>
       </Helmet>
-    <div className="bg-slate-600 h-screen w-screen sm:h-screen sm:w-screen sm:pt-8">
-      <div className="pb-0 w-screen h-screen sm:w-[351px] sm:h-[624px] sm:mx-auto rounded-lg"> 
+    <div className="bg-gray-500 h-screen w-screen sm:h-screen sm:w-screen sm:pt-8">
+      <div className="pb-12 w-screen h-screen sm:w-[351px] sm:h-[624px] sm:mx-auto rounded-lg"> 
       {/* Padding bottom was 12 met advertentieblok */}
         <Unity
           unityProvider={unityProvider}
@@ -42,8 +42,8 @@ function App() {
         />
       </div>
 
-      {/* Advertentieblock onder
-      <div className="flex -mt-12 h-12 min-w-[351px] sm:w-[351px] mx-auto bg-black b-0">
+      {/* Advertentieblock onder */}
+      {/* <div className="flex -mt-12 h-12 min-w-[351px] sm:w-[351px] mx-auto bg-black b-0">
         <h1 className="text-white mx-auto my-auto">advertentiehier</h1>
       </div> */}
     </div>
