@@ -33,7 +33,7 @@ function App() {
           gtag('config', 'G-P7MYNS4PKT');`}
         </script>
       </Helmet>
-    <div className="bg-gray-500 h-screen w-screen sm:h-screen sm:w-screen sm:pt-8">
+    <div className="bg-slate-600 h-screen w-screen sm:h-screen sm:w-screen sm:pt-8">
       <div className="pb-12 w-screen h-screen sm:w-[351px] sm:h-[624px] sm:mx-auto rounded-lg"> 
       {/* Padding bottom was 12 met advertentieblok */}
         <Unity
