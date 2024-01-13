@@ -42,10 +42,9 @@ function App() {
         />
       </div>
 
-      {/* Advertentieblock onder
       <div className="flex -mt-12 h-12 min-w-[351px] sm:w-[351px] mx-auto bg-black b-0">
-        <h1 className="text-white mx-auto my-auto">advertentiehier</h1>
-      </div> */}
+        <h1 className="text-white bg-slate-600 mx-auto my-auto"></h1>
+      </div>
     </div>
     </div>
   );
