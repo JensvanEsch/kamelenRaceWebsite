@@ -34,7 +34,7 @@ function App() {
         </script>
       </Helmet>
     <div className="bg-slate-600 h-screen w-screen sm:h-screen sm:w-screen sm:pt-8">
-      <div className="pb-12 w-screen h-screen sm:w-[351px] sm:h-[624px] sm:mx-auto rounded-lg"> 
+      <div className="pb-24 w-screen h-screen sm:w-[351px] sm:h-[624px] sm:mx-auto rounded-lg"> 
       {/* Padding bottom was 12 met advertentieblok */}
         <Unity
           unityProvider={unityProvider}
