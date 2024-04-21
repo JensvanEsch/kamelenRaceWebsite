@@ -18,13 +18,19 @@ function App() {
   return (
     <div>
       <Helmet>
-        <meta name="google-adsense-account" content="ca-pub-7401228549557769"></meta>
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-7401228549557769"
+        ></meta>
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7401228549557769"
           crossorigin="anonymous"
         ></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P7MYNS4PKT"></script>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-P7MYNS4PKT"
+        ></script>
         <script>
           {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -33,20 +39,20 @@ function App() {
           gtag('config', 'G-P7MYNS4PKT');`}
         </script>
       </Helmet>
-    <div className="bg-slate-600 h-screen w-screen sm:h-screen sm:w-screen sm:pt-8">
-      <div className="pb-24 w-screen h-screen sm:w-[351px] sm:h-[624px] sm:mx-auto rounded-lg"> 
-      {/* Padding bottom was 12 met advertentieblok */}
-        <Unity
-          unityProvider={unityProvider}
-          className="w-full h-full rounded-lg"
-        />
-      </div>
+      <div className="bg-slate-600 h-screen w-screen sm:h-screen sm:w-screen sm:pt-8">
+        <div className="pb-24 w-[720px] h-[1280px] sm:mx-auto rounded-lg">
+          {/* Padding bottom was 12 met advertentieblok */}
+          <Unity
+            unityProvider={unityProvider}
+            className="w-full h-full rounded-lg"
+          />
+        </div>
 
-      {/* Advertentieblock onder */}
-      {/* <div className="flex -mt-12 h-12 min-w-[351px] sm:w-[351px] mx-auto bg-black b-0">
+        {/* Advertentieblock onder */}
+        {/* <div className="flex -mt-12 h-12 min-w-[351px] sm:w-[351px] mx-auto bg-black b-0">
         <h1 className="text-white mx-auto my-auto">advertentiehier</h1>
       </div> */}
-    </div>
+      </div>
     </div>
   );
 }
